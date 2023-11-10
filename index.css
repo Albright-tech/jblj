@@ -1,0 +1,35 @@
+/* CSS for news items */
+/* Apply styles to the news items */
+.news-item {
+  border: 1px solid #ccc;
+  padding: 15px; /* Increase padding for better spacing */
+  margin: 15px 0; /* Add margin at the top and bottom */
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style the heading */
+.news-item h2 {
+  font-size: 24px; /* Increase font size for headings */
+  margin: 10px 0; /* Add margin at the top and bottom of headings */
+  color: #333; /* Darken the text color */
+}
+
+/* Style the description */
+.news-item p {
+  margin: 10px 0; /* Add margin at the top and bottom of paragraphs */
+  color: #555; /* Slightly darken the text color */
+}
+
+/* Style the read more link */
+.news-item a {
+  text-decoration: none;
+  color: #0074d9;
+  font-weight: bold; /* Make the link text bold */
+}
+
+/* Change link color on hover */
+.news-item a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darken the link color on hover */
+}
